@@ -1,0 +1,32 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.score{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+    position: relative;
+    width: 90vmin;
+    height: 90vmin;
+    max-width: 500px;
+    max-height: 500px;
+}
